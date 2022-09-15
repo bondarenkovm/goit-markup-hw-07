@@ -27,8 +27,9 @@
 }
 .modal-icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-close:hover .modal-icon-close,
-.modal-close:focus .modal-icon-close {
-  fill: var(--accent-color);
+
+  .modal-close:hover &,
+  .modal-close:focus & {
+    fill: var(--accent-color);
+  }
 }
