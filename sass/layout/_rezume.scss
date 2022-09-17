@@ -2,20 +2,19 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.rezume-list {
+.rezume__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.rezume-item {
+.rezume__item {
   flex-basis: calc((100% - 60px) / 3);
 }
-.rezume-box {
+.rezume__box {
   position: relative;
 }
-.rezume-subtitle-list {
+.rezume__text {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--primary-text-color-theme-light);

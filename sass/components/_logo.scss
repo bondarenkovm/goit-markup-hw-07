@@ -4,18 +4,3 @@
   @include font(26px, 31px);
   color: var(--primary-logo-color);
 }
-.logo-page {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  margin-right: 93px;
-}
-.logo__page-title {
-  color: var(--secondary-logo-color);
-}
-.logo-footer {
-  display: block;
-  margin-bottom: 20px;
-}
-.logo__footer-title {
-  color: var(--foot-logo-color);
-}
